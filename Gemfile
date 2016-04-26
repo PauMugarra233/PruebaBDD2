@@ -8,4 +8,5 @@ group :development do
 	gem 'capybara', '2.4.4'
 	gem 'launchy', '2.0.5'
 	gem 'rake'
+	gem 'selenium-webdriver'
 end
