@@ -7,5 +7,5 @@ group :development do
 	gem 'cucumber', '1.3.15'
 	gem 'capybara', '2.4.4'
 	gem 'launchy', '2.0.5'
-	gem 'poltergeist'
+	gem 'rake'
 end
