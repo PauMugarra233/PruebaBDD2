@@ -3,7 +3,7 @@ require 'capybara'
 require 'capybara/dsl'
 require 'rspec'
 require 'selenium-webdriver'
-#Selenium::WebDriver::Firefox::Binary.path='/home/ec2-user/firefox/firefox-bin'
+Selenium::WebDriver::Firefox::Binary.path='/usr/bin/firefox/firefox-bin'
 
 Capybara.run_server = false
 Capybara.default_driver = :selenium
