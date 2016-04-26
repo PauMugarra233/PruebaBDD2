@@ -3,11 +3,12 @@ require 'capybara'
 require 'capybara/dsl'
 require 'rspec'
 require 'selenium-webdriver'
+Selenium::WebDriver::Firefox::Binary.path='/home/ec2-user/firefox/firefox'
 
 Capybara.run_server = false
 Capybara.default_driver = :selenium
 Capybara.default_selector = :css
-Selenium::WebDriver::Firefox::Binary.path='/home/ec2-user/firefox/firefox'
+
 
 module Helpers
   def without_resynchronize
