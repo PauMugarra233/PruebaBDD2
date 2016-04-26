@@ -2,6 +2,7 @@ require 'rubygems'
 require 'capybara'
 require 'capybara/dsl'
 require 'rspec'
+require 'selenium-webdriver'
 
 Capybara.run_server = false
 Capybara.default_driver = :selenium
